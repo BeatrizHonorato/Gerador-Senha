@@ -10,6 +10,7 @@ def case1():
                 and sum(c.isdigit() for c in password) >= 2):
             break
     print(f"A senha gerada é: {password}")
+    input("Pressione Enter para fechar o programa.")
 
 def case2():
     alphabet = string.ascii_letters + string.digits
@@ -20,6 +21,7 @@ def case2():
                 and sum(c.isdigit() for c in password) >= 5):
             break
     print(f"A senha gerada é: {password}")
+    input("Pressione Enter para fechar o programa.")
 
 def case3():
     alphabet = string.ascii_letters + string.digits
@@ -30,6 +32,7 @@ def case3():
                 and sum(c.isdigit() for c in password) >= 9):
             break
     print(f"A senha gerada é: {password}")
+    input("Pressione Enter para fechar o programa.")
 
 def case4():
     print("Saindo...")
